@@ -1,0 +1,41 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.title {
+    color: white;
+}
+
+.title:hover {
+    color: black;
+}
+
+body {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(78, 161, 255);
+    color: white;
+}
+
+img {
+    width: 125px;
+}
+
+ol {
+    color: black;
+    text-align: left;
+}
+
+#quote {
+    color: white;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer {
+    color: black;
+}
