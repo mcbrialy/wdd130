@@ -53,6 +53,9 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 425px;
 }
@@ -78,6 +81,7 @@ header {
 .book:hover, .join:hover {
     background-color: #7AF5E0;
     color: #595959;
+    border-radius: 5px;
 }
 #background {
     background-color: #595959;
@@ -140,4 +144,7 @@ footer .social img {
 }
 #hero-img {
     width: 100%;
+}
+.card-img {
+    border: 10px solid black;
 }
