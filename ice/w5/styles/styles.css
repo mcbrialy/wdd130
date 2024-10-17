@@ -1,0 +1,22 @@
+#hero {
+    width: 100%;
+}
+header {
+    font-size: 0;
+}
+body {
+    margin: 0 auto;
+    font-size: 0;
+}
+.small {
+    width: 15%;
+    border-radius: 50%;
+    border: 10px solid rgb(72, 70, 70);
+    margin: 5% 5%;
+}
+.smallbox {
+    display: block;
+    background-color: gray;
+    height: 340px;
+    text-align: center;
+}
