@@ -11,7 +11,7 @@ body {
 .small {
     width: 15%;
     border-radius: 50%;
-    border: 10px solid rgb(72, 70, 70);
+    border: 1vw solid rgb(72, 70, 70);
     margin: 5% 5%;
 }
 .smallbox {
