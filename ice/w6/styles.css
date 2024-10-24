@@ -3,7 +3,7 @@ body {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 50vw auto;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
 }
 h1 {
