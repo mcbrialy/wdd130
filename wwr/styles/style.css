@@ -94,6 +94,7 @@ header {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border: 2px solid black;
 }
 .book:hover, .join:hover {
     background-color: #7AF5E0;
@@ -104,7 +105,7 @@ header {
     background-color: #595959;
 }
 .home-title {
-    color: #595959;
+    color: white;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -234,7 +235,7 @@ footer .social img {
         display: none;
     }
     #hero-msg h1 {
-        color: #6f7364;
+        color: #595959;
     }
     .home-title {
         font-size: 25px;
