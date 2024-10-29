@@ -69,8 +69,8 @@ main section img {
 }
 #background {
     height: 425px;
-    grid-template-columns: 1/11;
-    grid-template-rows: 4/9;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 body {
     background-color: white;
@@ -122,27 +122,27 @@ h4 {
     margin: 200px 0;
 }
 .rivers-card {
-    grid-template-columns: 2/4;
-    grid-template-rows: 2/3;
+    grid-column: 2/4;
+    grid-row: 2/3;
 }
 .camping-card {
-    grid-template-columns: 5/7;
-    grid-template-rows: 2/3;
+    grid-column: 5/7;
+    grid-row: 2/3;
 }
 .rapids-card {
-    grid-template-columns: 8/10;
-    grid-template-rows: 2/3;
+    grid-column: 8/10;
+    grid-row: 2/3;
 }
 .mountains {
-    grid-template-columns: 2/7;
-    grid-template-rows: 5/8;
+    grid-column: 2/7;
+    grid-row: 5/8;
 }
 .msg {
     background-color: #B8836E;
     line-height: 1.5em;
     padding: 35px;
-    grid-template-columns: 6/10;
-    grid-template-rows: 6/7;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 .msg h2 {
     color: white;
