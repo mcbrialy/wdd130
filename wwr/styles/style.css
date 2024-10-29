@@ -69,6 +69,8 @@ main section img {
 }
 #background {
     height: 425px;
+    grid-template-columns: 1/11;
+    grid-template-rows: 4/9;
 }
 body {
     background-color: white;
@@ -106,6 +108,10 @@ header {
     font-size: 2em;
     margin-top: 10px;
 }
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 h2 {
     margin: 0;
 }
@@ -115,10 +121,28 @@ h4 {
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
+.rivers-card {
+    grid-template-columns: 2/4;
+    grid-template-rows: 2/3;
+}
+.camping-card {
+    grid-template-columns: 5/7;
+    grid-template-rows: 2/3;
+}
+.rapids-card {
+    grid-template-columns: 8/10;
+    grid-template-rows: 2/3;
+}
+.mountains {
+    grid-template-columns: 2/7;
+    grid-template-rows: 5/8;
+}
 .msg {
     background-color: #B8836E;
     line-height: 1.5em;
     padding: 35px;
+    grid-template-columns: 6/10;
+    grid-template-rows: 6/7;
 }
 .msg h2 {
     color: white;
@@ -172,4 +196,7 @@ footer .social img {
 }    
 .card-img {
     border: 10px solid black;
+}
+.card-img, .mountains {
+    width: 100%;
 }
